@@ -1,0 +1,70 @@
+body{
+    font-family:"DM Sans", sans-serif;
+}
+
+.navbar{
+    display: flex;
+    height: 100px;
+    background-color: black;
+    border-bottom: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.navbar-ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar-options{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-right: 1.5rem;
+    position: relative;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar a:hover{
+    background-color: gray;
+    color: white;
+    
+}
+
+.navbar a:link{
+    text-decoration: none;
+    color: white;   
+}
+
+.otakulogo{
+    width: 10rem;
+    text-align: justify;
+    margin-right: 5rem;
+}
+
+.full-cart{
+    position: absolute;
+    top: 0;
+    right:0;
+    background-color: rgb(247,165,99);
+    color: black;
+    font-size:10px;
+    padding: 3px 7px;
+    border-radius: 50%;
+    transform: translate(50%, -50%);
+}
+
+.cart{
+    position:relative;
+    color:white;
+    margin-left: 5rem;
+}
+
